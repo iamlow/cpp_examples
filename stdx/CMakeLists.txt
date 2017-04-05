@@ -1,6 +1,10 @@
 project(std)
 
+add_definitions("-std=c++11")
+
 add_executable(threadexampler ThreadExampler.cpp)
+target_link_libraries(threadexampler pthread)
+add_executable(bigintegerplus BigIntegerPlus.cpp)
 
 # include_directories(${FFMPEG_INCLUDE_DIR})
 # add_definitions(-D__STDC_CONSTANT_MACROS)
