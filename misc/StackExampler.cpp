@@ -14,7 +14,7 @@ public:
 
   void push(const T &t) {
     if (size_ == index_ + 1) {
-      std::cout << "Q is FULL!\n";
+      std::cout << "Stack is FULL!\n";
       return;
     }
     t_[++index_] = t;
@@ -22,7 +22,7 @@ public:
 
   T pop() {
     if (-1 == index_) {
-      std::cout << "Q is empty!\n";
+      std::cout << "Stack is empty!\n";
       return -1;
     }
     return t_[index_--];
