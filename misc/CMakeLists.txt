@@ -4,6 +4,10 @@ add_definitions("-std=c++11")
 
 add_executable(bigintegerplus BigIntegerPlus.cpp)
 add_executable(quicksortexampler QuickSortExampler.cpp)
+add_executable(stackexampler StackExampler.cpp)
+add_executable(queueexampler QueueExampler.cpp)
+
+
 
 # include_directories(${FFMPEG_INCLUDE_DIR})
 # add_definitions(-D__STDC_CONSTANT_MACROS)
